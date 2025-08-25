@@ -8,12 +8,12 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 ## Características de la Mini Library 2.0
 
 ### Backend  se utilizó: (FastAPI)  
--GET /books → Listar todos los libros.
--POST /books → Agregar un nuevo libro.
--GET /books/{book_id} → Consultar un libro por ID.
--PUT /books/{book_id} → Editar libro existente.
--DELETE /books/{book_id} → Eliminar un libro.
--GET /books/stats → Obtener estadísticas generales.
+- GET /books → Listar todos los libros.
+- POST /books → Agregar un nuevo libro.
+- GET /books/{book_id} → Consultar un libro por ID.
+- PUT /books/{book_id} → Editar libro existente.
+- DELETE /books/{book_id} → Eliminar un libro.
+- GET /books/stats → Obtener estadísticas generales.
 
 ### Frontend (React + Vite)  
 - Interfaz sencilla e intuitiva.  
