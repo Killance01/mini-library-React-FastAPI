@@ -31,9 +31,9 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
   
 ## Terminal Frontend
 ```bash
- cd frontend
- npm install
- npm run dev
+   cd frontend
+   npm install
+   npm run dev
 
 ---
 
