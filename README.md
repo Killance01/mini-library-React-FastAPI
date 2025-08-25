@@ -16,7 +16,9 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - GET /books/stats → Obtener estadísticas generales.
 
 cd backend
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload --port 8000
 
 ### Frontend (React + Vite)  
@@ -29,7 +31,9 @@ uvicorn app.main:app --reload --port 8000
 - Manejo de errores y estados de carga.
 
 cd frontend
+
 npm install
+
 npm run dev
 
 ---
