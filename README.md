@@ -30,9 +30,10 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - Manejo de errores y estados de carga.
   
 ## Terminal Frontend
-- cd frontend
-- npm install
-- npm run dev
+```bash
+ cd frontend
+ npm install
+ npm run dev
 
 ---
 
