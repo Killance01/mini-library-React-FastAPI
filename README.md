@@ -16,9 +16,9 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - GET /books/stats → Obtener estadísticas generales.
   
 ## Terminal Backend
-- cd backend
-- pip install -r requirements.txt
-- uvicorn app.main:app --reload --port 8000
+      cd backend
+      pip install -r requirements.txt
+      uvicorn app.main:app --reload --port 8000
 
 ### Frontend (React + Vite)  
 - Interfaz sencilla e intuitiva.  
@@ -30,10 +30,10 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - Manejo de errores y estados de carga.
   
 ## Terminal Frontend
-```bash
-   cd frontend
-   npm install
-   npm run dev
+
+       cd frontend
+       npm install
+       npm run dev
 
 ---
 
