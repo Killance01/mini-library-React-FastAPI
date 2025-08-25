@@ -1,21 +1,21 @@
-# 📚 Mini Library 2.0
-
+# Mini Library 2.0
+Integrantes: Samuel Salazar Trujillo, Roiman Urrego Zuñiga, Isabela Cabezas Obregón.
 Una aplicación **fullstack** para gestionar tu biblioteca personal.  
 Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 
 ---
 
-## 🚀 Características
+## Características de la Mini Library 2.0
 
-### 🔹 Backend (FastAPI)  
-- Listar libros disponibles.  
-- Crear nuevos libros.  
-- Cambiar estado de leído/no leído.  
-- Eliminar libros.  
-- Obtener estadísticas (total, leídos, no leídos).  
-- Persistencia de datos en `books.json`.  
+### Backend  se utilizó: (FastAPI)  
+GET /books → Listar todos los libros.
+POST /books → Agregar un nuevo libro.
+GET /books/{book_id} → Consultar un libro por ID.
+PUT /books/{book_id} → Editar libro existente.
+DELETE /books/{book_id} → Eliminar un libro.
+GET /books/stats → Obtener estadísticas generales.
 
-### 🔹 Frontend (React + Vite)  
+### Frontend (React + Vite)  
 - Interfaz sencilla e intuitiva.  
 - CRUD completo: agregar, listar, editar (toggle), eliminar.  
 - Búsqueda en tiempo real.  
@@ -26,7 +26,7 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 
 ---
 
-## 🛠️ Tecnologías usadas
+## Tecnologías usadas
 
 - **Backend**
   - [Python 3.11+](https://www.python.org/)
@@ -38,12 +38,4 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
   - [Vite](https://vitejs.dev/)
   - [Axios](https://axios-http.com/)
 
----
-
-## ⚙️ Instalación y ejecución
-
-### 1️⃣ Clonar el repositorio
-```bash
-git clone https://github.com/Killance01/mini-library-React-FastAPI.git
-cd mini-library-React-FastAPI
 
