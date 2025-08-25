@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Cien Años De Soledad",
+        "author": "Gabriel García Márquez",
+        "year": 2005,
+        "read": false,
+        "id": 2
+    },
+    {
+        "title": "Hábitos Atómicos",
+        "author": "James Clear",
+        "year": 2024,
+        "read": true,
+        "id": 3
+    },
+    {
+        "title": "El Hombre En Busca Del Sentido",
+        "author": "Viktor Frankl",
+        "year": 2024,
+        "read": true,
+        "id": 4
+    },
+    {
+        "title": "El Quijote",
+        "author": "Miguel  De Cervantes",
+        "year": 1605,
+        "read": true,
+        "id": 1
+    }
+]

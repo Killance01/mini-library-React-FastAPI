@@ -1,0 +1,46 @@
+# =========================
+# Node / React (Frontend)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.log
+
+# =========================
+# Python / FastAPI (Backend)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.venv/
+env/
+venv/
+*.egg-info/
+
+# =========================
+# Entorno / Configuración
+# =========================
+.env
+*.env
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Archivos temporales
+# =========================
+*.bak
+*.tmp
+*.log
