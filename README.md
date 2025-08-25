@@ -15,9 +15,9 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - DELETE /books/{book_id} → Eliminar un libro.
 - GET /books/stats → Obtener estadísticas generales.
 
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+- cd backend
+- pip install -r requirements.txt
+- uvicorn app.main:app --reload --port 8000
 
 ### Frontend (React + Vite)  
 - Interfaz sencilla e intuitiva.  
