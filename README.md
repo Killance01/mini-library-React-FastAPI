@@ -14,7 +14,8 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - PUT /books/{book_id} → Editar libro existente.
 - DELETE /books/{book_id} → Eliminar un libro.
 - GET /books/stats → Obtener estadísticas generales.
-
+  
+## Terminal Backend
 - cd backend
 - pip install -r requirements.txt
 - uvicorn app.main:app --reload --port 8000
@@ -27,10 +28,11 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - Paginación de resultados.  
 - Debounce en búsquedas.  
 - Manejo de errores y estados de carga.
-
-cd frontend
-npm install
-npm run dev
+  
+## Terminal Frontend
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 
