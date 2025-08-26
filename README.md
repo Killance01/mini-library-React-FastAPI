@@ -49,6 +49,5 @@ Construida con **FastAPI** en el backend y **React + Vite** en el frontend.
 - **Frontend**
   - [React](https://react.dev/)
   - [Vite](https://vitejs.dev/)
-  - [Axios](https://axios-http.com/)
 
 
