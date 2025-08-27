@@ -8,7 +8,7 @@ from pathlib import Path
 
 router = APIRouter()
 
-# --- Persistencia en JSON ---
+# Persistencia en JSON 
 DATA_FILE = Path("books.json")
 
 
@@ -25,16 +25,11 @@ def save_books():
     )
 
 
-# --- Base de datos en memoria inicial ---
+# Base de datos en memoria inicial
 books_db = load_books()
 id_counter = max([b["id"] for b in books_db], default=0) + 1
 
-
-# ============================
-# 📌 ENDPOINTS
-# ============================
-
-# 📊 Estadísticas (debe ir antes de /books/{id})
+# Obtener estadísticas de los libros
 @router.get("/books/stats")
 def get_stats():
     if not books_db:
